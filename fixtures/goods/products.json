@@ -1,0 +1,170 @@
+[
+    {
+        "model": "goods.products",
+        "pk": 2,
+        "fields": {
+            "name": "stolik herbaciany i trzy krzesła",
+            "slug": "stolik-herbaciany-i-trzy-krzesla",
+            "description": "Zestaw trzech krzeseł i designerskiego stołu do salonu.",
+            "image": "",
+            "price": "150.00",
+            "discount": "0.00",
+            "quantity": 10,
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 3,
+        "fields": {
+            "name": "Stolik herbaciany i dwa krzesła",
+            "slug": "stolik-herbaciany-i-dwa-krzesla",
+            "description": "Zestaw stół i dwa krzesła w minimalistycznym stylu.",
+            "image": "",
+            "price": "93.00",
+            "discount": "0.00",
+            "quantity": 7,
+            "category": 10
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 4,
+        "fields": {
+            "name": "Podwójne łóżko",
+            "slug": "podwojne-lozko",
+            "description": "Łóżko jest podwójne z zagłówkiem i ogólnie bardzo ortopedyczne.",
+            "image": "",
+            "price": "670.00",
+            "discount": "0.00",
+            "quantity": 5,
+            "category": 7
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 5,
+        "fields": {
+            "name": "Stół kuchenny ze zlewem'",
+            "slug": "stol-kuchenny-ze-zlewem",
+            "description": "Stół kuchenny z wbudowanym zlewem i krzesłami.",
+            "image": "",
+            "price": "365.00",
+            "discount": "0.00",
+            "quantity": 10,
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 6,
+        "fields": {
+            "name": "Stół kuchenny z zabudową",
+            "slug": "stol-kuchenny-z-zabudowa",
+            "description": "Stół kuchenny z zabudowaną kuchenką i zlewem. Mnóstwo półek i ogólnie pięknie.",
+            "image": "",
+            "price": "430.00",
+            "discount": "0.00",
+            "quantity": 120,
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 7,
+        "fields": {
+            "name": "Narożnik do salonu'",
+            "slug": "naroznik-do-salonu",
+            "description": "Narożnik, który można przekształcić w podwójne łóżko, idealny do salonu i zabawiania gości!'",
+            "image": "",
+            "price": "610.00",
+            "discount": "0.00",
+            "quantity": 0,
+            "category": 10
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 8,
+        "fields": {
+            "name": "Stolik nocny",
+            "slug": "stolik-nocny",
+            "description": "Stolik nocny z dwiema szufladami (kwiat nie jest częścią zestawu).",
+            "image": "",
+            "price": "55.00",
+            "discount": "0.00",
+            "quantity": 15,
+            "category": 7
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 9,
+        "fields": {
+            "name": "Sofa",
+            "slug": "sofa",
+            "description": "Moduły łączone są na tzw. „krokodyle” – sprawia to, że można je swobodnie rozdzielać. Każdy z modułów jest wykończony w taki sposób, aby mógł być także niezależnym meblem",
+            "image": "",
+            "price": "190.00",
+            "discount": "0.00",
+            "quantity": 3,
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 10,
+        "fields": {
+            "name": "Krzesło biurowe",
+            "slug": "krzeslo-biurowe",
+            "description": "Posiada zaawansowany mechanizm odchylania i mechanizm bujania. Umożliwia zatrzymanie krzesła w pozycji odchylonej, oraz regulację siły oporu. Jego obsługa jest prosta i intuicyjna, co pozwala na pełne wykorzystanie wyjątkowej wygody tego mebla.",
+            "image": "",
+            "price": "150.00",
+            "discount": "0.00",
+            "quantity": 0,
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 11,
+        "fields": {
+            "name": "Roślina",
+            "slug": "roslina",
+            "description": "Roślina, która ozdobi Twoje wnętrze, nada otoczeniu świeżości i spokoju.",
+            "image": "",
+            "price": "10.00",
+            "discount": "0.00",
+            "quantity": 20,
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 12,
+        "fields": {
+            "name": "Stylizowany kwiat",
+            "slug": "stylizowany-kwiat",
+            "description": "Designerski kwiat do dekoracji wnętrz.",
+            "image": "",
+            "price": "15.00",
+            "discount": "0.00",
+            "quantity": 0,
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 13,
+        "fields": {
+            "name": "Mebli sypialni",
+            "slug": "mebli-sypialni",
+            "description": "Stolik nocny  to idealne rozwiązanie dla osób, które doceniają posiadanie nowoczesnych a zarazem eleganckich mebli w swoim otoczeniu.",
+            "image": "",
+            "price": "25.00",
+            "discount": "0.00",
+            "quantity": 0,
+            "category": 7
+        }
+    }
+]
