@@ -16,6 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from debug_toolbar.toolbar import debug_toolbar_urls
 
 
 from main import views
@@ -25,4 +26,4 @@ app_name = 'main'
 urlpatterns = [
     path('', views.index, name = 'index'),
     path('about/', views.about, name = 'about'),
-]
+]+ debug_toolbar_urls()
