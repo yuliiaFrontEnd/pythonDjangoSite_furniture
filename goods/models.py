@@ -12,7 +12,7 @@ class Categories(models.Model):
         verbose_name_plural = "Kategorii"
 
     def __str__(self):
-        return self.name    
+        return self.name 
 
 class Products(models.Model):
     name = models.CharField(max_length=150, unique=True, verbose_name="Nazwa")
@@ -31,4 +31,12 @@ class Products(models.Model):
 
     def __str__(self):
         return f'{self.name} Illosc - {self.quantity}'
+    
+    def display_id(self):
+        return f"{self.id:05}"
+
+    def self_price(self):
+        if self.discount:
+            return round(self.price - self.price*self.discount/100, 2)
+        return self.price
     

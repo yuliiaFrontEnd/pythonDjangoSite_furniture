@@ -6,11 +6,9 @@ from goods.models import Categories
 # Create your views here.
 def index(request) -> HttpResponse:
 
-    categories = Categories.objects.all()
     context: dict[str, str] = {
         'title': 'Home main',
-        'content': "Магазин мебели HOME",
-        'categories': categories
+        'content': "Магазин мебели HOME"
         
     }
 
