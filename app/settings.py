@@ -149,4 +149,5 @@ INTERNAL_IPS = [ '127.0.0.1' ]
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 AUTH_USER_MODEL = "users.User"
+LOGIN_URL = '/user/login/'
 #DEBUG_TOOLBAR_CONFIG = {"ROOT_TAG_EXTRA_ATTRS": "data-turbo-permanent hx-preserve"}
