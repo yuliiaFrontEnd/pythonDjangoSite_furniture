@@ -19,7 +19,7 @@ def login(request):
                 auth.login(request, user)
                 messages.success(request, f"{ username }, You are enter")
                 redirect_page = request.POST.get('next', None)
-                if redirect_page and redirect_page != reverse('user: logout'):
+                if redirect_page and redirect_page != reverse('user:logout'):
                     return HttpResponseRedirect(request.POST.get('next'))
                
                 return HttpResponseRedirect(reverse('main:index'))

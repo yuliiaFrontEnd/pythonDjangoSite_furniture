@@ -83,7 +83,7 @@
                 </div>
                 <!-- Корзина -->
                 {% user_carts request as carts %}
-                
+
                 <div class="col-md-7">
                     <div class=" bg-white p-4 mb-4 mx-2 rounded custom-shadow">
                         <h3 class="text-center mb-4">basket</h3>
@@ -92,9 +92,11 @@
                             {% include "carts/includes/included_cart.html" %}
                             <!-- Закончилась разметка корзины -->
                         </div>
-                        <a class="btn btn-dark" href="../orders/create_order.html">
-                            place an order
-                        </a>
+                        {% if carts %}
+                            <a class="btn btn-dark" href="../orders/create_order.html">
+                                place an order
+                            </a>
+                        {% endif %}            
                     </div>
                 </div>
                 <!-- Оформленные заказы -->
