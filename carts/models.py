@@ -38,4 +38,4 @@ class Cart(models.Model):
         if self.user:
             return f'Basket {self.user.username} | Product {self.product.name} | Quantity {self.quantity}'
         
-        return f'Unknown user| Товар {self.product.name} | Quantity {self.quantity}'
+        return f'Unknown user| Product {self.product.name} | Quantity {self.quantity}'
