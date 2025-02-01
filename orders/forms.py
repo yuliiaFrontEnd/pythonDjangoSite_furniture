@@ -1,7 +1,7 @@
 
 from  django import forms
 
-class CreateOrderForm(forms.Forms):
+class CreateOrderForm(forms.Form):
 
     first_name = forms.CharField()
     last_name = forms.CharField()
